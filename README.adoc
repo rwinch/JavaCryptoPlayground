@@ -1,0 +1,5 @@
+link:src/main/java/AesGsmMain.java[AesGcmPrimer] is a basic Java example of using AES GCM
+
+You can run the sample by running the following from the commandline:
+
+	$ ./gradlew run
