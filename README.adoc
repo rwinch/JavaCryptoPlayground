@@ -1,5 +1,9 @@
-link:src/main/java/AesGsmMain.java[AesGcmPrimer] is a basic Java example of using AES GCM
+= Java Crypto Playground
 
-You can run the sample by running the following from the commandline:
+Contains various samples with Java Crypto
+
+* link:src/main/java/AesGsmMain.java[AesGcmPrimer] is a basic Java example of using AES GCM
+* link:src/main/java/BenchmarkEcdsaVsRsaMain.java[BenchmarkEcdsaVsRsaMain] is a basic benchmark for EC vs SHA256withRSA
+You can run the samples by running the following from the commandline:
 
 	$ ./gradlew run
