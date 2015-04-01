@@ -4,11 +4,13 @@ sourceCompatibility = '1.8'
 
 task runAesGsm(type: JavaExec) {
 	main = "AesGsmMain"
-	classpath = jar.outputs.files + project.configurations.runtime
 }
 
 task runBenchmarkEcdsaVsRsa(type: JavaExec) {
 	main = "BenchmarkEcdsaVsRsaMain"
+}
+
+configure(tasks.withType(JavaExec)) {
 	classpath = jar.outputs.files + project.configurations.runtime
 }
 
